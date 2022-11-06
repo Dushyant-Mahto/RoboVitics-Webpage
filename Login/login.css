@@ -1,0 +1,160 @@
+h1 {
+    font-size: 50px;
+    margin: 0 auto 0 auto;
+    font-family: 'century-gothic', cursive;
+    color: #7ad0df;
+    line-height: 7;
+    padding: 200px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Grape Nuts', cursive;
+    color: #0AA1DD;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.top-container{
+    background-image: linear-gradient(rgba(3, 33, 39, 0.5), rgba(0, 27, 56, 0.5)), url("./Robo_1.png") ;
+    background-color: #cccccc;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle-container {
+    background: linear-gradient(45deg, rgb(0, 60, 255),rgb(38, 137, 209));
+    padding: auto;
+}
+
+.bottom-container {
+    background-color: #FFFFFF;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+}
+
+a {
+    color: #0AA1DD;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #00ffbb;
+}
+
+.copyright {
+    color: #2FA4FF;
+    font-size: 1.55rem;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.form{
+    width: 450px;
+    height: 480px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    top: 180px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.btnn {
+    width: 385px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.btnn:hover {
+    background: rgb(0, 0, 0);
+    color: #ff7200;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #2a6354;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;;
+}
+
+.log {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #2FA4FF;
+}
+
+.social-links img{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-links{
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 15px;
+}
+
+button{
+    width: 150px;
+    border: 0;
+    padding: 10px 12px;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #614385, #516395);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button img{
+    width: 30px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

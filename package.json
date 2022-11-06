@@ -1,0 +1,16 @@
+{
+  "name": "web-dev-practice",
+  "version": "1.0.0",
+  "description": "RoboVITics Task-4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dushyant",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
